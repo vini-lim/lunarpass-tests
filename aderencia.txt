@@ -1,0 +1,40 @@
+Teste de aderência = especionar cada elemento da pagina e verificar se existe uma forma de identificar cada um de forma única. 
+
+
+
+Botão buscar missões
+
+- possui a tag html e o texto "Buscar missões". o que já o suficiente para construir um bom locator.
+
+checkbox de bases lunares
+
+- possui texto no span na qual consigo identificar a base com /..//span[text()='base'] do xpath posso chegar no label para clicar no botão.
+
+Caixa de seleção para ordernar data de missões
+
+-select simples do html com options e também possui um id.
+
+# Página de Resultados /missions
+
+Botão refinar
+
+- possui a tag html button e o texto "Refinar", o que já suficiente para construir um bom locator.
+
+-o filtro de base lunares ja tem id
+-order por está usando select padrão do html
+
+OBS: seria melhor padronizar os elementos de caixa de seleção conforme filtro de bases lunar da págins / missions.
+
+Lista de missões 
+
+Item de cada missão
+
+- a lista de missões é representada por uma ul , seria ótimo incluir uma id em cada li relacionada com o cód. da missão
+- título ok usa h3
+- Descrição ok , usa um p
+- Data ida e volta, span sem nenhuma marcação , incluir uma id
+-Estadia, span sem nenhuma marcação , incluir uma id
+- Disponibilidade de assentos, span sem nenhuma marcação , incluir uma id
+- o botão reservar possui no atributo href o código da missão (a[href="/booking/LP-0127A"]).
+
+Caixa de resultados 
